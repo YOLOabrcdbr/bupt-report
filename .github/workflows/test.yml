@@ -1,7 +1,7 @@
-name: BUPT ncov clock in
+name: BUPT ncov clock in test
 on:
   schedule:
-    - cron: "05 9 * * *"
+    - cron: "10 9 * * *"
 
 
 jobs:
