@@ -1,7 +1,7 @@
 name: BUPT ncov clock in test
 on:
   schedule:
-    - cron: "20 9 * * *"
+    - cron: "20, 25,30,35,40 9 * * *"
 
 
 jobs:
@@ -28,5 +28,5 @@ jobs:
         run: |
           python3 main.py
         env:
-          USERS: ${{ secrets.USER }}
+          USERS: ${{ secrets.USERS }}
           DATA: ${{ secrets.DATA }}
