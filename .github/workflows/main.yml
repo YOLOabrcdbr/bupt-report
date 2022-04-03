@@ -1,7 +1,7 @@
 name: BUPT ncov clock in
 on:
   schedule:
-    - cron: "05 4,10,16 * * *"
+    - cron: "30 4,10,16 * * *"
 
 
 jobs:
